@@ -1,3 +1,13 @@
+# ⚠️ VolMan Has Moved to **VolMon v2.0** (`LowEffortDigital/VolMon`)
+
+> **Repository Moved**: As part of the **Low Effort Mon Suite v2.0** release (`PerfMon`, `EventMon`, `VolMon`, `WebMon`), **VolMan** has been renamed to **[VolMon](https://github.com/LowEffortDigital/VolMon)** and bumped to **v2.0.0**.
+>
+> - **New Official Distribution Repository**: **[https://github.com/LowEffortDigital/VolMon](https://github.com/LowEffortDigital/VolMon)**
+> - **Direct v2.0.0 macOS Download (`.dmg`)**: **[Download VolMon v2.0.0 (`VolMon.dmg`)](https://github.com/LowEffortDigital/VolMon/releases/latest/download/VolMon.dmg)**
+> - **Installed v1.x Auto-Update Support**: This repository remains online with a `v2.0.0` bridge release so installed `VolMan v1.x` apps checking `LowEffortDigital/VolMan` automatically detect and upgrade to **VolMon v2.0.0** while preserving your saved preferences and themes.
+
+---
+
 <div align="center">
 
 <picture>
@@ -8,18 +18,18 @@
 
 <br/><br/>
 
-<img src="Resources/branding/app_icon_512.png" alt="VolMan Logo" width="112" height="112" />
+<img src="Resources/branding/app_icon_512.png" alt="VolMon Logo" width="112" height="112" />
 
-# VolMan for macOS (v1.1)
+# VolMon for macOS (v2.0.0)
 
 **Native macOS Drive Space Telemetry, Large File & Folder Explorer, External Storage Offload Router, Structured Backup & Archive Builder & Smart Cleanup Suite**
 
 [![Swift 6.0](https://img.shields.io/badge/Swift-6.0-orange.svg)](https://swift.org)
 [![Platform](https://img.shields.io/badge/Platform-macOS%2014.0%2B-purple.svg)](https://www.apple.com/macos)
 [![License: MIT](https://img.shields.io/badge/License-MIT-cyan.svg)](LICENSE)
-[![Download Latest DMG](https://img.shields.io/badge/Download-VolMan.dmg-8B5CF6.svg)](https://github.com/LowEffortDigital/VolMan/releases/latest/download/VolMan.dmg)
+[![Download Latest DMG](https://img.shields.io/badge/Download-VolMon.dmg-8B5CF6.svg)](https://github.com/LowEffortDigital/VolMon/releases/latest/download/VolMon.dmg)
 
-<img src="docs/screenshots/app_store_feature_banner.png" alt="VolMan v1.0 Showcase Banner" width="100%" />
+<img src="docs/screenshots/app_store_feature_banner.png" alt="VolMon v2.0.0 Showcase Banner" width="100%" />
 
 </div>
 
@@ -27,7 +37,7 @@
 
 ## Overview
 
-**VolMan** (`MacVolumeManager`) brings pro-grade storage telemetry, multi-gigabyte file & folder inspection, transparent external drive offloading, deterministic backup/archive structuring, and safe cache cleanup to macOS—wrapped in the signature **Low Effort Digital** Liquid Glass aesthetic alongside [**PerfMon**](https://github.com/LowEffortDigital/PerfMon) and [**EventViewer**](https://github.com/LowEffortDigital/EventViewer).
+**VolMon** (`MacVolumeManager`) brings pro-grade storage telemetry, multi-gigabyte file & folder inspection, transparent external drive offloading, deterministic backup/archive structuring, and safe cache cleanup to macOS—wrapped in the signature **Low Effort Digital** Liquid Glass aesthetic alongside [**PerfMon**](https://github.com/LowEffortDigital/PerfMon), [**EventMon**](https://github.com/LowEffortDigital/EventMon), and [**WebMon**](https://github.com/LowEffortDigital/WebMon).
 
 ---
 
@@ -83,16 +93,16 @@
 
 ### Direct Download (`.dmg`)
 Download the latest universal macOS disk image from GitHub Releases:
-- [**Download VolMan.dmg (v1.0)**](https://github.com/LowEffortDigital/VolMan/releases/latest/download/VolMan.dmg)
+- [**Download VolMon.dmg (v2.0.0)**](https://github.com/LowEffortDigital/VolMon/releases/latest/download/VolMon.dmg)
 
 ### Build from Source
 ```bash
-git clone https://github.com/Facelesswhite/VolMan.git
-cd VolMan
+git clone https://github.com/Facelesswhite/VolMon.git
+cd VolMon
 ./Scripts/generate_icns.sh
 ./Scripts/build_app.sh
 ./Scripts/package_dmg.sh
-open dist/VolMan.app
+open dist/VolMon.app
 ```
 
 ### Run Unit Tests
@@ -107,8 +117,8 @@ swift test
 - [**Privacy Policy (`PRIVACY.md`)**](PRIVACY.md) — 100% local volume & file inspection; zero file metadata ever leaves your Mac.
 - [**MIT License (`LICENSE`)**](LICENSE)
 
-### Optional Card widget gallery (1.0)
+### Optional Card widget gallery (2.0)
 
 Six selectable previews and eight storage graph styles complement the Classic HUDs.
 
-![VolMan native Card previews — sample data](docs/screenshots/06_Widget_Cards.png)
+![VolMon native Card previews — sample data](docs/screenshots/06_Widget_Cards.png)
