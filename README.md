@@ -10,7 +10,7 @@
 
 <img src="Resources/branding/app_icon_512.png" alt="VolMan Logo" width="112" height="112" />
 
-# VolMan for macOS (v1.0)
+# VolMan for macOS (v1.1)
 
 **Native macOS Drive Space Telemetry, Large File & Folder Explorer, External Storage Offload Router, Structured Backup & Archive Builder & Smart Cleanup Suite**
 
